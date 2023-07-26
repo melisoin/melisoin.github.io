@@ -41,7 +41,7 @@ a:hover {
     font-size: 18px;
 }
 
-#copyright {
+.copyright {
     font-size: 14px;
     text-align: end;
     margin-top: 36px;

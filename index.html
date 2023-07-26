@@ -8,6 +8,9 @@
         <h1>Mélisoin est définitivement fermée.</h1>
         <p>Merci à tous mes clients pour leur confiance durant cette belle aventure. Malheureusement, mon état de santé ne me permet plus de continuer.
         <p class="note">Si vous avez besoin de soins podologiques, visitez le <a href="http://aiispq.org">aiispq.org</a> ou par téléphone au <a href="tel:18007719664">1-800-771-9664</a>.</p>
-        <p id="copyright">© 2023 Mélisoin</p>
+        <p class="copyright">© <span id="copyright-year">2023</span> Mélisoin</p>
+        <script>
+            document.getElementById("copyright-year").textContent = (new Date()).getFullYear();
+        </script>
     </body>
 </html>
